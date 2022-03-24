@@ -1,6 +1,6 @@
 {
     id: 1,
     name: User,
-    cart: 0,
+    cartId: 0,
     
 }
