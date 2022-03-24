@@ -1,0 +1,21 @@
+{
+    type: "productAddToCart",
+    payload: {
+        id:
+        idUser:
+        idItem:
+        quantity;
+        totalPrice:
+    }
+}
+
+{
+    type: "productRemovedToCart",
+    payload: {
+        id:
+        idUser:
+        idItem:
+        quantity;
+        totalPrice:
+    }
+}

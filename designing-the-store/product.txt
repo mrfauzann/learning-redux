@@ -1,0 +1,7 @@
+{
+    id: 1,
+    name : "3D Camera",
+    price : 1500,
+    stoct: 40,
+    hasDiscount: true
+}

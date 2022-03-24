@@ -1,0 +1,6 @@
+{
+    idProduct: 1,
+    idUser : 1,
+    TotalItem : 1,
+    StatusPay : 0,
+}
