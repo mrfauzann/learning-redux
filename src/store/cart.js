@@ -10,7 +10,7 @@ const slice = createSlice({
         productAddedToCart: (cart, action) => {
             cart.push({
                 id: action.payload.id,
-                name: action.payload.name,
+                price: action.payload.price,
             });
         }        
     },

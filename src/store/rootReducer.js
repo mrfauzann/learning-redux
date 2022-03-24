@@ -1,9 +1,9 @@
 import { createReducer } from "@reduxjs/toolkit";
 import { combineReducers } from "redux";
-import productReducer from './product/productReducer';
-import cartReducer from './cart/cartReducer';
+import productReducer from './product';
+import cartReducer from './cart';
 
 export default combineReducers({
     products: productReducer,
-    cart : createReducer,
+    carts : cartReducer,
 })

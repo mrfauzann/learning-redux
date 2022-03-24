@@ -11,7 +11,7 @@ export default function reducer(state = initialState, action){
                 {
                     id: ++lastId,
                     name: action.payload.name,
-                    cartId: action.payload.cartId,
+                    address: action.payload.address,
                 }
             ];
         default:

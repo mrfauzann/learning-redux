@@ -9,8 +9,8 @@ export function userAdded(product = {}){
     return {
         type: actions.USER_ADDED,
         payload: {
-            name: userAdded.name ? userAdded.name : null,
-            cartId : userAdded.cartId ? userAdded.cartId : null,
+            name: user.name ? user.name : null,
+            address : user.address ? user.address : null,
         }
     }
 }

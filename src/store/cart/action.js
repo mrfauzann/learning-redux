@@ -9,7 +9,7 @@ export function productAddedToCart(product = {}){
     return {
         type: actions.PRODUCT_ADDED_TO_CART,
         payload: {
-            name: cart.name ? cart.name : null,
+            price: cart.price ? cart.price : null,
         }
     }
 }

@@ -20,7 +20,7 @@ store.subscribe(() => {
 store.dispatch({
     type: 'apiRequest', //3.1 Create Action Creators
     payload: {
-        url: '/products',
+        url: '/users',
         method: 'get'
     }
 });
